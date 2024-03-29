@@ -60,7 +60,7 @@ I will also try to answer below question
 6. What is the performance of different pizza sizes in terms of orders?
 7. Which pizza category is the most popular among customers?
 8. How does our monthly revenue performance compare?
-9. 
+
 
 
 
