@@ -149,4 +149,9 @@ GROUP BY pizza_size
 ORDER BY Per_Sale
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Order and sales per Pizza
 
+SELECT  Top 10 pizza_name, COUNT (order_id) AS Number_of_Orders,SUM (quantity) AS Number_of_Pizzas, ROUND (SUM (total_price),2) AS Total_revenue
+FROM pizza_sales
+GROUP BY pizza_name
+ORDER BY 2 DESC
